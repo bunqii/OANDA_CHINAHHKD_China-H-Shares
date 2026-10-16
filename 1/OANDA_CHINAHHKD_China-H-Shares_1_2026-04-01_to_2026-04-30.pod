@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "CHINAH_HKD",
+  "granularity": "M1",
+  "chunk_start": "2026-04-01",
+  "chunk_end": "2026-04-30",
+  "parquet_file": "OANDA_CHINAHHKD_China-H-Shares_1_2026-04-01_to_2026-04-30.parquet",
+  "data_file": "OANDA_CHINAHHKD_China-H-Shares_1_2026-04-01_to_2026-04-30.parquet",
+  "row_count": 18163,
+  "first_candle": {
+    "time": 1775006100,
+    "Time": "2026-04-01T01:15:00.000000000Z",
+    "open": 8544.7,
+    "high": 8546.7,
+    "low": 8544.2,
+    "close": 8544.7,
+    "volume": 11
+  },
+  "last_candle": {
+    "time": 1777575480,
+    "Time": "2026-04-30T18:58:00.000000000Z",
+    "open": 8795.0,
+    "high": 8795.5,
+    "low": 8795.0,
+    "close": 8795.5,
+    "volume": 12
+  },
+  "csv_file": "OANDA_CHINAHHKD_China-H-Shares_1_2026-04-01_to_2026-04-30.parquet",
+  "csv_row_count": 18163,
+  "csv_first_candle": {
+    "time": 1775006100,
+    "Time": "2026-04-01T01:15:00.000000000Z",
+    "open": 8544.7,
+    "high": 8546.7,
+    "low": 8544.2,
+    "close": 8544.7,
+    "volume": 11
+  },
+  "csv_last_candle": {
+    "time": 1777575480,
+    "Time": "2026-04-30T18:58:00.000000000Z",
+    "open": 8795.0,
+    "high": 8795.5,
+    "low": 8795.0,
+    "close": 8795.5,
+    "volume": 12
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:48:03.000000000Z",
+  "generated_at": "2026-10-16T02:48:03.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 621,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-03-29T12:55:00Z",
+        "to": "2026-04-02T00:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-04-02T00:15:00Z",
+        "to": "2026-04-05T11:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-04-05T11:35:00Z",
+        "to": "2026-04-08T22:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-04-08T22:55:00Z",
+        "to": "2026-04-12T10:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-04-12T10:15:00Z",
+        "to": "2026-04-15T21:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-04-15T21:35:00Z",
+        "to": "2026-04-19T08:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-04-19T08:55:00Z",
+        "to": "2026-04-22T20:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-04-22T20:15:00Z",
+        "to": "2026-04-26T07:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-04-26T07:35:00Z",
+        "to": "2026-04-29T18:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-04-29T18:55:00Z",
+        "to": "2026-05-03T06:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
